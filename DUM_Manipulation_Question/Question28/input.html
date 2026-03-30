@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #btn{
+        background-color: red;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        text-align: center;
+    }
+    .darkMode {
+        background: #000;
+        color: #fff;
+    }
+</style>
+<body>
+    <div>
+        <h1>JavaScript</h1>
+        <button id="btn">Toggle Button</button>
+    </div>
+</body>
+</html>
+<script>
+    let btnToggler = document.getElementById("btn");
+   
+    btnToggler.addEventListener("click", function(){
+        document.body.classList.toggle("darkMode")
+    })
+    
+</script>

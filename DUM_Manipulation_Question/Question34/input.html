@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        #ul{
+            border: 1px solid red;
+            padding: 20px;
+        }
+        li{
+            border: 1px solid blue;
+            list-style: none;
+            width: 50%;
+        }
+    </style>
+<body>
+    <ul id="ul">
+    <li>Apple</li>
+    <li>Mango</li>
+    </ul>
+</body>
+</html>
+
+<script>
+    let ul = document.getElementById("ul");
+    ul.addEventListener("click", (e) => {
+        if (e.target.tagName === "LI") {
+            console.log("click");
+            console.log(e);
+            e.target.style.color = "red";
+        }
+    })
+</script>

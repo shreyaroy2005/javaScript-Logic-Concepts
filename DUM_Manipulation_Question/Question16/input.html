@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pElem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit rem eligendi dolorum accusantium repudiandae iste.</p>
+</body>
+</html>
+<script>
+    let pElem = document.querySelector("#pElem");
+    let newH1 = document.createElement("h1");
+    newH1.textContent = "javaScript";
+    document.body.insertBefore(newH1, pElem);
+</script>

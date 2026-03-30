@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: red;
+    }
+    ul{
+        border: 1px solid red;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    li {
+        list-style: none;
+    }
+</style>
+
+<body>
+    <h1>LIST ITEM</h1>
+    <ul id="ulLest">
+        <li>item 1</li>
+    </ul>
+</body>
+
+</html>
+<script>
+    let ulLest = document.getElementById("ulLest");
+    let arr = ["apple", "mango", "orange", "papay"];
+    let newItem = "";
+
+    for (let i = 0; i < arr.length; i++) {
+        newItem += `<li>${arr[i]}</li>`
+        console.log(newItem);
+    }
+    ulLest.innerHTML = newItem;
+    // let newItem = 
+    // `
+    // <li>Item 2</li>
+    // <li>Item 3</li>
+
+    // `
+    // ulLest.innerHTML = ulLest.innerHTML + newItem;
+</script>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border: 1px solid red;
+        width: 50%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    input{
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid rgb(165, 165, 165);
+    }
+    span{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        color: red;
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Enter Your Name" id="input">
+        <span id="span"></span>
+    </div>
+</body>
+</html>
+<script>
+    let input = document.getElementById("input");
+    let span = document.getElementById("span");
+
+    input.addEventListener("input", function(){
+        span.textContent = input.value;
+    })
+    
+</script>

@@ -1,4 +1,4 @@
-//! Write a function that returns the larger of two numbers. (Easy) 
+//! 5.Write a function that returns the larger of two numbers. (Easy) 
 //Explanation: Use an if statement to compare the two parameters and return the larger value.
 
 function checkLargeNum(num1, num2){

@@ -1,4 +1,4 @@
-//! Write a function to convert temperature from Celsius to Fahrenheit. (Easy) 
+//! 3.Write a function to convert temperature from Celsius to Fahrenheit. (Easy) 
 //Explanation: Use the formula F = C * (9/5) + 32 inside the function and return the result.
 
 // step by step :-

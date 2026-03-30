@@ -1,4 +1,4 @@
-//! Write a function that checks whether a string is a palindrome. (Medium) 
+//! 7.Write a function that checks whether a string is a palindrome. (Medium) 
 //Explanation: Compare the string to its reverse (which can be obtained with a loop or built-in method) and return true if they match.
 
 // step by step :- 

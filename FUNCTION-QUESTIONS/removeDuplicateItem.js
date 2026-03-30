@@ -1,5 +1,5 @@
 
-//! Write a function that removes duplicate items from an array. (Medium) 
+//! 26.Write a function that removes duplicate items from an array. (Medium) 
 // Explanation: Loop through the array and track seen 
 // values (in an object or new array); build and return 
 // a new array without the duplicates.

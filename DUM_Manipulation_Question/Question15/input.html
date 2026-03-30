@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Active{
+        color: #fff;
+        background-color: red;
+        border: none;
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: normal;
+    }
+</style>
+<body>
+   <button id="addBtn">ADD</button>
+</body>
+</html>
+<script>
+let btn = document.getElementById("addBtn");
+btn.addEventListener("click", function(){
+    btn.classList.toggle("Active");
+})
+</script>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="gallery">
+      
+    </div>
+</body>
+</html>
+<script>
+    let gallery = document.getElementById("gallery");
+    let image = document.createElement("img");
+    image.src = "./image/Rectangle 9.png";
+    image.alt = "this is my card Image";
+    
+    let caption = document.createElement("figcaption");
+    caption.textContent = "JAVASCRIPT";
+    gallery.appendChild(image);
+    gallery.appendChild(caption);
+</script>

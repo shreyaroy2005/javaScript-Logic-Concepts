@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        border: 1px solid red;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    input{
+        width: 80%;
+        outline: none;
+        padding: 15px 10px;
+        border-radius: 20px;
+        border: 1px solid rgb(93, 93, 93);
+    }
+</style>
+<body>
+    <div>  
+        <input type="text" placeholder="Enter Your Name" id="input">
+    </div>
+</body>
+</html>
+<script>
+    // javascript a jokhon kono element select kora hoy tokhon seta object hoye jay.ar object ar vitor onek property thake. ayy property gulo access korte .dot use kora hoy.
+    let input = document.getElementById("input");
+   // console.log(input);
+    input.placeholder = "Type your full name";
+</script>

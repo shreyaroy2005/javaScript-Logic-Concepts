@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #toggleElem{
+        background: lightblue;
+        color: red;
+        padding: 20px;
+        width: 200px;
+        height: 100px;
+    }
+</style>
+<body>
+    <button id="toggle">Toggle</button>
+    <p id="toggleElem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi vero a alias nemo dolore culpa.</p>
+</body>
+</html>
+<script>
+    let toggle = document.getElementById("toggle");
+    let toggleElem = document.getElementById("toggleElem");
+
+    toggle.addEventListener("click", function(){
+        if (toggleElem.style.display === "none") {
+            toggleElem.style.display = "block";
+        }else{
+            toggleElem.style.display = "none";
+        }
+    })
+</script>

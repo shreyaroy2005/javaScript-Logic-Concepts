@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        text-align: center;
+    }
+    .container h1{
+        font-size: 20px;
+        text-transform: uppercase;
+        color: red;
+    }
+    .imageWrapper{
+        width: 300px;
+        height: 100%;
+        margin: 40px auto;
+    }
+    .image{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Append an image element with a given URL to a div.</h1>
+        <div class="imageWrapper"></div>
+    </div>
+</body>
+</html>
+<script>
+    let imageWrapper = document.querySelector(".imageWrapper");
+    let image = document.createElement("img");
+    image.classList.add("image")
+    image.src = "./image/Rectangle 9.png";
+    imageWrapper.appendChild(image);
+</script>

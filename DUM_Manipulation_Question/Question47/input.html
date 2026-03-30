@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        display: inline;
+    }
+</style>
+<body>
+    <h1 id="text">JAVASCRIPT LASSON</h1>
+</body>
+</html>
+<script>
+    let textElem = document.getElementById("text");
+    textElem.addEventListener("mouseover", function(){
+        textElem.style.color = "red";
+    });
+    textElem.addEventListener("mouseout", function(){
+        textElem.style.color = "black";
+    });
+</script>

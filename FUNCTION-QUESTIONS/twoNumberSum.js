@@ -1,4 +1,4 @@
-//! Write a function that takes two numbers and returns their sum. (Easy) 
+//! 1.Write a function that takes two numbers and returns their sum. (Easy) 
 //Explanation: Define a function with two parameters and use the + operator to return their sum. 
 
 

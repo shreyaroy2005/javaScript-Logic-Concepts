@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="pElem">hii</p>
+    <p class="pElem">hello</p>
+    <p class="pElem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, neque.</p>
+</body>
+</html>
+<script>
+    let pElem = document.querySelectorAll(".pElem");
+    console.log(pElem);
+    pElem.forEach((item) => {
+        item.textContent = "hello World"
+    })
+</script>

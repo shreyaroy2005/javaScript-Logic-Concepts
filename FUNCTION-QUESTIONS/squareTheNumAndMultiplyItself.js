@@ -1,4 +1,4 @@
-//! Write a function that returns the square of a number. (Easy) 
+//! 4.Write a function that returns the square of a number. (Easy) 
 // Explanation: Define a function with one parameter and return that parameter multiplied by itself.
 
 // step by step :- 
